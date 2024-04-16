@@ -2,11 +2,9 @@ export const runtime = 'edge'
 import { URL } from '../constants'
 
 
-const myString = `_StreamYoink!_Click to yoink the stream _Earn $DEGEN every second`;
-const myStringEncoded = encodeURIComponent(myString);
-const image = "https://i.imgur.com/7vstmmA.png";
-const buttonText1 = '🎩 Start Yoinking'
-const buttonText2 = '🏆 Go to Leaderboard'
+
+const image = "https://i.imgur.com/byGKd9S.png";
+const buttonText1 = 'Start'
 
 export default function Home() {
   return (
@@ -31,11 +29,8 @@ export async function generateMetadata() {
     'fc:frame:image:aspect_ratio': '1.91:1',
     'fc:frame:button:1': buttonText1,
     'fc:frame:button:1:action': 'post',
-    'fc:frame:button:1:target': `${URL}/start`,
-    'fc:frame:post_url': `${URL}/start`,
-    'fc:frame:button:2': buttonText2,
-    'fc:frame:button:2:action': 'link',
-    'fc:frame:button:2:target': `${URL}/leaderboard`,
+    'fc:frame:button:1:target': `${URL}/1`,
+    'fc:frame:post_url': `${URL}/1`,
 
   }
 
