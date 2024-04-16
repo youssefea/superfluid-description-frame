@@ -1,10 +1,6 @@
 import { NextResponse } from "next/server";
 import {
-  followingQuery,
   walletQuery,
-  lastYoinkedQuery,
-  fetchSubgraphData,
-  updateProfileData,
 } from "../api";
 import { init, fetchQuery } from "@airstack/node";
 import { account, walletClient, publicClient } from "./config";
@@ -12,7 +8,6 @@ import ABI from "./abi.json";
 import { URL, DEBUGGER_HUB_URL } from "./../../constants";
 import { getFrameMessage } from "frames.js";
 
-// USDC contract address on Base
 const contractAddress = "0xcfA132E353cB4E398080B9700609bb008eceB125";
 const superTokenAddress = process.env.SUPER_TOKEN_ADDRESS as `0x${string}`;
 
