@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const imgURL="https://i.imgur.com/hUr3TpO.png"
+const imgURL="https://i.imgur.com/iO1AK4P.png"
 import {URL} from "./../../constants"
 
 const _html = `
@@ -15,6 +15,7 @@ const _html = `
     <meta property="fc:frame:button:1" content="←" />
     <meta property="fc:frame:button:1:action" content="post" />
     <meta property="fc:frame:button:1:post_url" content="${URL}/2" />
+    <meta property="fc:frame:button:1:target" content="${URL}/2" />
     <meta property="fc:frame:button:2" content="Claim stream" />
     <meta property="fc:frame:button:2:action" content="post" />
     <meta property="fc:frame:button:2:target" content="${URL}/check" />

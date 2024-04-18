@@ -13,13 +13,11 @@ const superTokenAddress = process.env.SUPER_TOKEN_ADDRESS as `0x${string}`;
 
 init(process.env.AIRSTACK_KEY || "");
 
-const didNotRecast = "https://i.imgur.com/1Z3Z6Zz.png";
-const noConnected = "https://i.imgur.com/OYUKKk0.png";
-const congrats = "https://i.imgur.com/9MstQ93.png";
+const didNotRecast = "https://i.imgur.com/c3TtPOc.png";
+const noConnected = "https://i.imgur.com/ZzuNG4N.png";
+const congrats = "https://i.imgur.com/wy2E6r7.gif";
 
-const flowRate = 327245050000000000;
-
-const coolDown = 3600;
+const flowRate = 3272450500;
 
 const _html = (img, msg, action, url) => `
 <!DOCTYPE html>
