@@ -18,7 +18,7 @@ const superfluidLogo = `<path fill-rule="evenodd" clip-rule="evenodd" d="M62.415
 <path fill-rule="evenodd" clip-rule="evenodd" d="M30.6978 23.5061H23.4586V16.2669H16.2192V9.0275H30.6978V23.5061ZM8.98 30.7453H16.2192V23.5061H8.98V30.7453ZM0 4.38417V35.3892C0 37.7839 1.94139 39.7256 4.33639 39.7256H35.3414C37.7364 39.7256 39.6778 37.7839 39.6778 35.3892V4.38417C39.6778 1.98917 37.7364 0.0477791 35.3414 0.0477791H4.33639C1.94139 0.0477791 0 1.98917 0 4.38417Z" fill="#12141E"/>
 `;
 
-const bgImg="https://i.imgur.com/c0Gztxt.png"
+const bgImg="https://i.imgur.com/kUWBppd.png"
 
 function generateSVG(
   userName: string,

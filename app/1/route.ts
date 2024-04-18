@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const imgURL="https://i.imgur.com/HnVV2fi.png"
+const imgURL="https://i.imgur.com/OfSIDFs.png"
 import {URL} from "./../../constants"
 
 const _html = `

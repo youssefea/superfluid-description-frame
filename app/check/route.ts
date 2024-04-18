@@ -13,9 +13,9 @@ const superTokenAddress = process.env.SUPER_TOKEN_ADDRESS as `0x${string}`;
 
 init(process.env.AIRSTACK_KEY || "");
 
-const didNotRecast = "https://i.imgur.com/c3TtPOc.png";
-const noConnected = "https://i.imgur.com/ZzuNG4N.png";
-const congrats = "https://i.imgur.com/wy2E6r7.gif";
+const didNotRecast = "https://i.imgur.com/i3jaR1I.png";
+const noConnected = "https://i.imgur.com/tJvDy80.png";
+const congrats = "https://i.imgur.com/fU2h3tn.gif";
 
 const flowRate = 3272450500;
 

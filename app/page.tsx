@@ -3,7 +3,7 @@ import { URL } from '../constants'
 
 
 
-const image = "https://i.imgur.com/T3Mp4T8.png";
+const image = "https://i.imgur.com/AJbDzNr.png";
 const buttonText1 = 'Start'
 
 export default function Home() {
